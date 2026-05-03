@@ -7,5 +7,19 @@
 </head>
 <body>
     <h1>Organizador Financeiro</h1>
+    <p>Bem-vindo ao seu organizador financeiro!</p>
+    <input type="text" id="descricao" placeholder="Descrição">
+    <input type="number" id="valor" placeholder="Valor">
+    
+    <select id="categoria">
+        <option>Alimentação</option>
+        <option>Transporte</option>
+        <option>Entretenimento</option>
+    </select>
+    <button id="addBtn">Adicionar</button>
+
+    <h2>Saldo: R$ <span id="saldo">0.00</span></h2>
+
+    <ul id="transacoes"></ul>
 </body>
 </html>
